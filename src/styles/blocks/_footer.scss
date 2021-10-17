@@ -1,0 +1,35 @@
+.footer {
+  background-color: $color-dark;
+  color: $color-ligth;
+  padding: 31px 0;
+}
+.footer-inner {
+  @include container;
+
+}
+.footer-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  margin-right: auto;
+}
+
+
+.phone {
+  font-size: 28px;
+  line-height: 38px;
+  text-decoration: none;
+  color: $color-ligth;
+}
+
+.social-icons {
+  display: flex;
+  list-style: none;
+}
+
+.social-items {
+  width: 26px;
+}
+

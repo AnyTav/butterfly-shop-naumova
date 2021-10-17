@@ -1,0 +1,44 @@
+.portfolio {
+  text-align: center;
+
+}
+
+.portfolio-inner {
+  @include container;
+}
+
+.portfolio-title {
+  margin: 0;
+  padding-top: 130px;
+  font-size: 64px;
+  line-height: 87px;
+  color: $color-dark;
+  font-weight: 400;
+  text-align: center;
+}
+
+.portfolio-wrap {
+  display: flex;
+}
+
+
+.portfolio-pic {
+  margin: 0 10px;
+}
+
+
+.portfolio-pic-text {
+  margin: 0 10px;
+  padding: 15px 0;
+  font-size: 24px;
+  line-height: 33px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: $color-ligth;
+
+}
+
+.btn-portfolio {
+  margin-top: 120px;
+  margin-bottom: 130px;
+}
+

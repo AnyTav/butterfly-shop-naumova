@@ -1,7 +1,11 @@
 .top {
     text-align: center;
-    background-color: rgba(51, 51, 51, .7);
-    
+    background-color: rgb(177, 174, 174);
+    // background-image: url(/www/images/Promo-bg-pic.jpg);
+    // background-repeat: no-repeat;
+    // background-size: cover;;
+    // background-position: center;
+
 }
 .top-inner {
     @include container;
@@ -12,6 +16,7 @@
     margin: 0;
     padding-top: 200px;
     font-size: 72px;
+    font-weight: 600;
     line-height: 98.05px;
     color: $color-ligth;
 
