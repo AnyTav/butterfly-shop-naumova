@@ -18,6 +18,7 @@
 
 
 .phone {
+  padding-right: 30px;
   font-size: 28px;
   line-height: 38px;
   text-decoration: none;
@@ -27,9 +28,18 @@
 .social-icons {
   display: flex;
   list-style: none;
+  margin: 0;
+  padding-left: 22.5px;
 }
 
 .social-items {
-  width: 26px;
+  padding: 0 7.5px;
+
+
 }
 
+.social-link {
+  display: block;
+  width: 26px;
+  height: 26px;
+}
