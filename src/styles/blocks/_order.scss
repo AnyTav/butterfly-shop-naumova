@@ -8,12 +8,9 @@
 }
 
 .order-title {
-  margin: 0;
-  font-size: 64px;
-  line-height: 87px;
-  color: $color-dark;
-  font-weight: 400;
-  text-align: center;
+  @include h2;
+  padding-bottom: 40px;
+
 }
 
 .order-text {
