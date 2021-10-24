@@ -7,3 +7,16 @@ $h1-fw: 400;
 $color-accent: #FF2D2D;
 $color-ligth: #fff;
 $color-dark: #333;
+
+
+// indents
+$indent-gap: 20px;
+
+// braikpoints
+$desktop-bp: 1276px;
+$tablet-bp: 768px;
+$mobile-bp: 320px;
+
+// Значения для медиазапросов для Desktop-first
+$df-tablet: $desktop-bp - 1;
+$df-mobile: $tablet-bp - 1;

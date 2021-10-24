@@ -1,4 +1,6 @@
-* {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 
 }
@@ -7,4 +9,9 @@ body {
     margin: 0;
     font-family: 'Open Sans';
     font-style: normal;
+}
+
+img {
+  display: block;
+  width: 100%;
 }

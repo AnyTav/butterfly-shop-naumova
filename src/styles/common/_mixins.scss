@@ -1,6 +1,8 @@
 @mixin container {
-    max-width: 1276px;
+    max-width: 1276px + $indent-gap;
     margin: 0 auto;
+    padding-left: ($indent-gap / 2);
+    padding-right: ($indent-gap / 2);
 }
 
 @mixin h2 {
@@ -10,6 +12,19 @@
   color: $color-dark;
   font-weight: 400;
   text-align: center;
+
+  @media (max-width: $df-tablet) {
+    font-size: 60px;
+    line-height: 82px;
+
+  }
+
+  @media (max-width: $df-mobile) {
+    font-size: 36px;
+    line-height: 49px;
+
+
+  }
 
 }
 

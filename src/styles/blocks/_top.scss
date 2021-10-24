@@ -1,25 +1,53 @@
 .top {
-    text-align: center;
-    padding-top: 290px;
-    padding-bottom: 214px;
-    background-image: url(../images/Promo-bg-pic.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  text-align: center;
+  padding-top: 290px;
+  padding-bottom: 214px;
+  background-image: url(../images/Promo-bg-pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media (max-width: $df-tablet) {
+    padding-top: 180px;
+    padding-bottom: 190px;
+  }
+
+  @media (max-width: $df-mobile) {
+    padding-top: 110px;
+    padding-bottom: 100px;
+
+  }
 
 }
+
+
+
 .top-inner {
-    @include container;
+  @include container;
 }
 
 
 .top-title {
-    margin: 0;
-    padding-bottom: 100px;
-    font-size: 72px;
-    font-weight: 600;
-    line-height: 98.05px;
-    color: $color-ligth;
+  margin: 0;
+  padding-bottom: 100px;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 98.05px;
+  color: $color-ligth;
+
+  @media (max-width: $df-tablet) {
+    font-size: 54px;
+    line-height: 74px;
+
+
+  }
+
+  @media (max-width: $df-mobile) {
+    font-size: 32px;
+    line-height: 44px;
+
+
+  }
 
 }
 

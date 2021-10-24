@@ -1,12 +1,43 @@
 .btn {
-    display: inline-block;
-    padding: 30px 36px;
-    font-family: inherit;
-    font-size: 42px;
-    color: $color-ligth;
-    background-color: $color-accent;
-    text-decoration: none;
-    border-radius: 6px;
+  display: inline-block;
+  padding: 30px 36px;
+  font-family: inherit;
+  font-size: 42px;
+  color: $color-ligth;
+  background-color: $color-accent;
+  text-decoration: none;
+  border-radius: 6px;
+
+  @media (max-width: $df-mobile) {
+    font-size: 24px;
+    line-height: 32px;
+
+
+  }
+}
+
+.btn-portfolio {
+  @media (max-width: $df-mobile) {
+    width: 100%;
+    text-align: center;
+
+  }
+}
+
+
+.order-btn {
+  margin: 0;
+  padding: 35px 141px 35px 150px;
+  font-size: 28px;
+  line-height: 34px;
+  border: none;
+
+  @media (max-width: $df-tablet) {
+    flex-basis: 100%;
+
+
+  }
+
 }
 
 
