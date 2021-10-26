@@ -2,6 +2,15 @@
   background-color: $color-dark;
   color: $color-ligth;
   padding: 31px 0;
+
+  @media (max-width: $df-tablet) {
+
+  }
+
+  @media (max-width: $df-mobile) {
+    padding: 30px ($indent-gap / 2) 35px;
+
+  }
 }
 .footer-inner {
   @include container;
@@ -10,10 +19,22 @@
 .footer-wrap {
   display: flex;
   align-items: center;
+
+
+  @media (max-width: $df-mobile) {
+    display: block;
+    text-align: center;
+  }
+
 }
 
 .footer-logo {
   margin-right: auto;
+
+  @media (max-width: $df-mobile) {
+    display: block;
+    padding-bottom: 30px;
+  }
 }
 
 
@@ -23,6 +44,8 @@
   line-height: 38px;
   text-decoration: none;
   color: $color-ligth;
+
+
 }
 
 .social-icons {
@@ -30,6 +53,11 @@
   list-style: none;
   margin: 0;
   padding-left: 22.5px;
+
+  @media (max-width: $df-mobile) {
+    justify-content: center;
+    padding-top: 15px;
+  }
 }
 
 .social-items {

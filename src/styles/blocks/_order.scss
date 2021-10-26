@@ -3,13 +3,13 @@
   padding: 130px 0;
 
   @media (max-width: $df-tablet) {
-    padding: 120px ($indent-gap / 2);
+    padding: 120px 0;
+    margin-left: ($indent-gap / 2);
+    margin-right: ($indent-gap / 2);
   }
 
   @media (max-width: $df-mobile) {
-    padding: 90px ($indent-gap / 2);
-
-
+    padding: 90px 0;
   }
 
 }
@@ -47,34 +47,28 @@
   display: flex;
   align-items: flex-end;
 
+  @media (max-width: $df-tablet) {
+    flex-wrap: wrap;
+
+
+  }
+
+  // @media (max-width: $df-mobile) {
+  //  display: block;
+  // }
+
 
 }
 
 .form-order-field  {
   flex-basis: 33.33%;
-
   border: none;
-
-  @media (max-width: $df-tablet) {
-    flex-wrap: wrap;
-    flex-basis: 50%;
-
-  }
-
-  @media (max-width: $df-mobile) {
-   display: block;
-
-
-
-  }
 }
 
 
 .form-order-label {
   font-size: 20px;
   line-height: 27px;
-
-
 
 }
 
@@ -85,6 +79,14 @@
   line-height: 34px;
   border: none;
   border-radius: 6px;
+  @media (max-width: $df-tablet) {
+   flex-basis: 50%;
+  }
+
+  @media (max-width: $df-mobile) {
+    padding: 90px 0;
+  }
+
 
 }
 
