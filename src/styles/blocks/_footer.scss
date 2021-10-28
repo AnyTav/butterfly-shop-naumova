@@ -30,6 +30,12 @@
 
 .footer-logo {
   margin-right: auto;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
+  color: inherit;
+  text-decoration: none;
 
   @media (max-width: $df-mobile) {
     display: block;

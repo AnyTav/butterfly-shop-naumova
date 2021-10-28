@@ -23,9 +23,7 @@
 
   @media (max-width: $df-mobile) {
     padding-bottom: 20px;
-
   }
-
 }
 
 .order-text {
@@ -38,9 +36,7 @@
   @media (max-width: $df-mobile) {
     font-size: 18px;
     line-height: 25px;
-
   }
-
 }
 
 .form-order {
@@ -49,15 +45,11 @@
 
   @media (max-width: $df-tablet) {
     flex-wrap: wrap;
-
-
   }
 
   // @media (max-width: $df-mobile) {
   //  display: block;
   // }
-
-
 }
 
 .form-order-field  {
@@ -69,7 +61,6 @@
 .form-order-label {
   font-size: 20px;
   line-height: 27px;
-
 }
 
 .form-order-input {
@@ -79,6 +70,7 @@
   line-height: 34px;
   border: none;
   border-radius: 6px;
+
   @media (max-width: $df-tablet) {
    flex-basis: 50%;
   }
@@ -86,8 +78,6 @@
   @media (max-width: $df-mobile) {
     padding: 90px 0;
   }
-
-
 }
 
 

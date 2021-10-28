@@ -17,6 +17,6 @@ $desktop-bp: 1276px;
 $tablet-bp: 768px;
 $mobile-bp: 320px;
 
-// Значения для медиазапросов для Desktop-first
+// Значения для медиазапросов по Desktop-first подходу
 $df-tablet: $desktop-bp - 1;
 $df-mobile: $tablet-bp - 1;
