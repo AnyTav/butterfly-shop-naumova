@@ -45,25 +45,38 @@
 
   @media (max-width: $df-tablet) {
     flex-wrap: wrap;
+    width: auto;
   }
 
-  // @media (max-width: $df-mobile) {
-  //  display: block;
-  // }
+  @media (max-width: $df-mobile) {
+   display: block;
+  }
 }
 
 .form-order-field  {
   flex-basis: 33.33%;
   border: none;
+
+  @media (max-width: $df-tablet) {
+    flex-basis: 50%;
+    border: none;
+  }
+
+  @media (max-width: $df-mobile) {
+
+  }
+
 }
 
 
 .form-order-label {
+  display: inline-block;
   font-size: 20px;
   line-height: 27px;
 }
 
 .form-order-input {
+  flex-basis: 33.33%;
   padding: 35px 30px;
   margin-right: 10px;
   font-size: 28px;
@@ -72,12 +85,13 @@
   border-radius: 6px;
 
   @media (max-width: $df-tablet) {
-   flex-basis: 50%;
+    flex-basis: 50%;
   }
 
   @media (max-width: $df-mobile) {
     padding: 90px 0;
   }
+
 }
 
 

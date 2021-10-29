@@ -1,3 +1,12 @@
+.faq-nav {
+  ul{
+    li:nth-child(4) {
+      background-color: $color-accent;
+    }
+  }
+}
+
+
 .faq {
   padding: 130px 0;
 }
@@ -8,23 +17,64 @@
 
 .faq-title {
   @include h2;
-  margin-bottom: 80px;
+}
+
+.faq-list {
+  margin-top: 80px;
+  @media (max-width: $df-tablet) {
+    margin-top: 70px;
+  }
+  @media (max-width: $df-mobile) {
+    margin-top: 50px;
+  }
+
+}
+
+.faq-item {
+  margin-top: 40px;
 }
 
 .faq-question {
   display: block;
   width: 100%;
+  margin: 0;
   padding: 25px 30px;
+  font-weight: 300;
   font-size: 36px;
   line-height: 49px;
+  text-align: left;
+  background-color: #fff;
+  border: 1px solid rgba(255, 45, 45, 0.2);
+  border-radius: 4px;
+
+  @media (max-width: $df-tablet) {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  @media (max-width: $df-mobile) {
+    font-size: 28px;
+    line-height: 37px;
+  }
+
 
 }
-.faq-nav {
-  ul{
-    li:nth-child(4) {
-      background-color: $color-accent;
-    }
+
+
+.faq-reply {
+  padding: 0 30px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 300;
+
+  @media (max-width: $df-tablet) {
+    font-size: 16px;
+    line-height: 22px;
   }
+  @media (max-width: $df-mobile) {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
 }
 
 
