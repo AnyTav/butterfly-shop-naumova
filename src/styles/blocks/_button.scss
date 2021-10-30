@@ -27,12 +27,22 @@
 
 
 .order-btn {
-  display: block;
   margin: 0;
+  padding: 35px 0;
   font-size: 28px;
   line-height: 34px;
   border: none;
   width: 100%;
+
+
+  @media (max-width: $df-tablet) {
+
+
+  }
+
+  @media (max-width: $df-mobile) {
+
+  }
 }
 
 

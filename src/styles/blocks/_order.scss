@@ -63,17 +63,13 @@
     flex-basis: 50%;
     border: none;
   }
-
 }
 
 .form-order-field-btn {
-  padding-top: 40px;
-  flex-basis: 100%;
-
-
-  // @media (max-width: $df-mobile) {
-  //   justify-content: center;
-  // }
+  @media (max-width: $df-tablet) {
+    padding-top: 40px;
+    flex-basis: 100%;
+  }
 }
 
 
