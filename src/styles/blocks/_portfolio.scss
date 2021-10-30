@@ -4,11 +4,11 @@
 
 
   @media (max-width: $df-tablet) {
-    padding: 120px ($indent-gap / 2);
+    padding: 120px 0;
   }
 
   @media (max-width: $df-mobile) {
-    padding: 90px ($indent-gap / 2);
+    padding: 90px 0;
 
   }
 
@@ -35,9 +35,8 @@
 
 .portfolio-wrap {
   display: flex;
-  flex-basis: 100%;
+  flex-wrap: wrap;
   margin-bottom: 120px;
-
   margin-left: -($indent-gap / 2);
   margin-right: -($indent-gap / 2);
 
@@ -61,23 +60,20 @@
 
 
 .portfolio-pic-wrap {
-  position: relative;
-  margin: 0 ($indent-gap / 2);
+
+  padding: 0 ($indent-gap / 2);
+  flex-basis: 25%;
 
   @media (max-width: $df-tablet) {
+    flex-basis: 50%;
     margin-top:  ($indent-gap / 2);
     margin-bottom:  ($indent-gap / 2);
 
   }
-
-
-
-
 }
 
-.portfolio-pic {
-
-
+.pic-wrap {
+  position: relative;
 
 }
 

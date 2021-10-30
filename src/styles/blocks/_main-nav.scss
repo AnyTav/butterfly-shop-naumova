@@ -6,56 +6,51 @@
     left: 0;
     display: none;
     width: 100%;
-    padding: 25px 0;
-    border-top: 1px solid $color-ligth;
     background-color: $color-dark;
   }
 
-    ul {
-        display: flex;
-        margin: 0;
-        padding-left: 0;
-        list-style: none;
+  ul {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
 
-        @media (max-width: $df-mobile) {
-          display: block;
-          text-align: center;
-        }
+    @media (max-width: $df-mobile) {
+      display: block;
+      text-align: center;
     }
+  }
 
-    li {
-        padding: 33px 25px;
-        margin: 0 5px;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 24px;
-        text-transform: uppercase;
+  li {
+    margin: 0 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
 
-        @media (max-width: $df-mobile) {
-          padding: 8px 25px;
-          margin: 0;
-        }
-
+    @media (max-width: $df-mobile) {
+      margin: 0;
     }
+  }
 
-    li:hover {
-        color: $color-accent;
+  a {
+    display: block;
+    padding: 33px 25px;
+    color: inherit;
+    text-decoration: none;
 
+    @media (max-width: $df-mobile) {
+      display: block;
     }
+  }
 
-
-    a {
-      text-decoration: none;
-      color: inherit;
-        @media (max-width: $df-mobile) {
-          display: block;
-        }
-    }
-
-
+  a.active {
+    background-color: $color-accent;
+  }
+  a:hover {
+    background-color: $color-accent;
+  }
 }
-
-
 
 .main-nav-open {
   @media (max-width: $df-mobile) {
