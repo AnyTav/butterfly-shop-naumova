@@ -1,22 +1,28 @@
 .contacts {
   padding: 130px 0;
+
+  @media (max-width: $df-tablet) {
+    padding: 120px 0;
+  }
+  @media (max-width: $df-mobile) {
+    padding: 90px 0;
+  }
 }
 .contacts-inner {
   @include container;
 }
 .contacts-title {
   @include h2;
+
 }
 
 .tabs {
   display: flex;
   justify-content: center;
   margin: 0;
+  margin-top: 40px;
   padding: 0;
   list-style: none;
-  @media (max-width: $df-tablet) {
-
-  }
 }
 
 .tabs-item {
@@ -34,41 +40,45 @@
 .tabs-link {
   font-size: 22px;
   line-height: 24px;
+  color: $color-dark;
   text-transform: uppercase;
   text-decoration: none;
 
-  @media (max-width: $df-tablet) {
-    font-size: 18px;
-    line-height: 22px;
+  &.active {
+    color: $color-accent;
   }
+
+  @media (max-width: $df-tablet) {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
   @media (max-width: $df-mobile) {
     font-size: 10px;
     line-height: 12px;
-
   }
-
 }
 
 
 .contacts-content {
-  display: flex;
+  display: none;
   justify-content: space-between;
   margin-top: 40px;
-  @media (max-width: $df-tablet) {
+}
 
-  }
+
+.contacts-content.active {
+  display: flex;
+  text-align: center;
 
   @media (max-width: $df-mobile) {
     display: block;
-    text-align: center;
   }
 }
 
 .contacts-address {
   justify-content: center;
   flex-basis: 41.66%;
-
-
 }
 
 .address-text {
@@ -81,18 +91,17 @@
   @media (max-width: $df-mobile) {
     font-size: 14px;
     line-height: 18px;
-
   }
 }
 
-
-
-
 .contacts-maps {
   flex-basis: 58.33%;
+  @media (max-width: $df-tablet) {
+
+  }
+
+
+  @media (max-width: $df-mobile) {
+
+  }
 }
-
-
-
-
-

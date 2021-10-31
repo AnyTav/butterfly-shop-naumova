@@ -7,97 +7,9 @@
   <title>Butterfly-shop</title>
   <link rel="stylesheet" href="style/style.css">
 </head>
-<section class="portfolio">
-  <div class="portfolio-inner">
-    <h1 class="portfolio-title">Наши работы</h1>
-    <div class="portfolio-filter">
-      <ul class="filter">
-        <li class="filter-item"><a href="#" class="filter-link active" data-type="all">Все</a></li>
-        <li class="filter-item"><a href="#" class="filter-link" data-type="strict">Строгие</a></li>
-        <li class="filter-item"><a href="#" class="filter-link" data-type="funny">Веселые</a></li>
-        <li class="filter-item"><a href="#" class="filter-link" data-type="for-animals">Для животных</a></li>
-        <li class="filter-item"><a href="#" class="filter-link" data-type="baby">Детские</a></li>
-        <li class="filter-item"><a href="#" class="filter-link" data-type="for-adults">Для взрослых</a></li>
-      </ul>
-    </div>
-    <div class="portfolio-wrap">
-      <div class="portfolio-pic-wrap">
-        <div class="pic-wrap">
-          <img src="images/big-butterfly.jpg" alt="Бабочка такая" class="portfolio-pic"data-type="strict for-adults">
-          <p class="portfolio-pic-text ">Бабочка такая</p>
-        </div>
-      </div>
-      <div class="portfolio-pic-wrap">
-        <div class="pic-wrap">
-          <img src="images/two-butterflies.jpg" alt="Бабочка растакая" class="portfolio-pic" data-type="for-adults">
-          <p class="portfolio-pic-text">Бабочка растакая</p>
-        </div>
-      </div>
-      <div class="portfolio-pic-wrap">
-        <div class="pic-wrap">
-          <img src="images/bow-tie.jpg" alt="Бабочка сякая" class="portfolio-pic" data-type="for-adults">
-          <p class="portfolio-pic-text">Бабочка сякая</p>
-        </div>
-      </div>
-      <div class="portfolio-pic-wrap">
-        <div class="pic-wrap">
-          <img src="images/bow-tie-for-cat.jpg" alt="Кривая" class="portfolio-pic" data-type="for-animals">
-          <p class="portfolio-pic-text">Кривая</p>
-        </div>
-      </div>
-      <div class="portfolio-pic-wrap">
-        <div class="pic-wrap">
-          <img src="images/bow-tie-beige.jpg" alt="Бабочка такая" class="portfolio-pic" data-type="strict for-adults">
-          <p class="portfolio-pic-text ">Бабочка такая</p>
-        </div>
-      </div>
-      <div class="portfolio-pic-wrap">
-        <div class="pic-wrap">
-          <img src="images/bow-tie-burgundy.jpg" alt="Бабочка растакая" class="portfolio-pic" data-type="for-adults">
-          <p class="portfolio-pic-text">Бабочка растакая</p>
-        </div>
-      </div>
-      <div class="portfolio-pic-wrap">
-        <div class="pic-wrap">
-          <img src="images/bow-tie-baby.jpg" alt="Бабочка сякая" class="portfolio-pic" data-type="baby">
-          <p class="portfolio-pic-text">Бабочка сякая</p>
-        </div>
-      </div>
-      <div class="portfolio-pic-wrap">
-        <div class="pic-wrap">
-          <img src="images/bow-tie-black.jpg" alt="Кривая" class="portfolio-pic" data-type="strict for-adults">
-          <p class="portfolio-pic-text">Кривая</p>
-        </div>
-      </div>
-      <div class="portfolio-pic-wrap">
-        <div class="pic-wrap">
-          <img src="images/bow-tie-pink.jpg" alt="Бабочка такая" class="portfolio-pic" data-type="for-adults">
-          <p class="portfolio-pic-text ">Бабочка такая</p>
-        </div>
-      </div>
-      <div class="portfolio-pic-wrap">
-        <div class="pic-wrap">
-          <img src="images/bow-tie-for-dog.jpg" alt="Бабочка растакая" class="portfolio-pic" data-type="for-animals">
-          <p class="portfolio-pic-text">Бабочка растакая</p>
-        </div>
-      </div>
-      <div class="portfolio-pic-wrap">
-        <div class="pic-wrap">
-          <img src="images/bow-tie-pattern.jpg" alt="Бабочка сякая" class="portfolio-pic" data-type="funny for-adults">
-          <p class="portfolio-pic-text">Бабочка сякая</p>
-        </div>
-      </div>
-      <div class="portfolio-pic-wrap">
-        <div class="pic-wrap">
-          <img src="images/bow-tie-bright.jpg" alt="Кривая" class="portfolio-pic" data-type="funny">
-          <p class="portfolio-pic-text">Кривая</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <body>
+
   <header class="header">
     <div class="header-inner">
       <div class="header-wrap">
@@ -116,13 +28,119 @@
   </header>
   <main>
 
+    <section class="portfolio">
+      <div class="portfolio-inner">
+        <h1 class="portfolio-title">Наши работы</h1>
+        <div class="portfolio-filter">
+          <ul class="filter js-filter">
+            <li class="filter-item">
+              <a href="#" class="filter-link active" data-type="all">Все</a>
+            </li>
+            <li class="filter-item">
+              <a href="#" class="filter-link" data-type="strict">Строгие</a>
+            </li>
+            <li class="filter-item">
+              <a href="#" class="filter-link" data-type="funny">Веселые</a>
+            </li>
+            <li class="filter-item">
+              <a href="#" class="filter-link" data-type="for-animals">Для животных</a>
+            </li>
+            <li class="filter-item">
+              <a href="#" class="filter-link" data-type="baby">Детские</a>
+            </li>
+            <li class="filter-item">
+              <a href="#" class="filter-link" data-type="for-adults">Для взрослых</a>
+            </li>
+          </ul>
+        </div>
+        <div class="portfolio-wrap">
+          <div class="portfolio-pic-wrap" data-type="strict">
+            <div class="pic-wrap">
+              <img src="images/big-butterfly.jpg" alt="Бабочка такая" class="portfolio-pic">
+              <p class="portfolio-pic-text ">Бабочка такая</p>
+            </div>
+          </div>
+          <div class="portfolio-pic-wrap" data-type="for-adults">
+            <div class="pic-wrap">
+              <img src="images/two-butterflies.jpg" alt="Бабочка растакая" class="portfolio-pic">
+              <p class="portfolio-pic-text">Бабочка растакая</p>
+            </div>
+          </div>
+          <div class="portfolio-pic-wrap" data-type="for-adults">
+            <div class="pic-wrap">
+              <img src="images/bow-tie.jpg" alt="Бабочка сякая" class="portfolio-pic">
+              <p class="portfolio-pic-text">Бабочка сякая</p>
+            </div>
+          </div>
+          <div class="portfolio-pic-wrap" data-type="for-animals">
+            <div class="pic-wrap">
+              <img src="images/bow-tie-for-cat.jpg" alt="Кривая" class="portfolio-pic">
+              <p class="portfolio-pic-text">Кривая</p>
+            </div>
+          </div>
+          <div class="portfolio-pic-wrap" data-type="strict">
+            <div class="pic-wrap">
+              <img src="images/bow-tie-beige.jpg" alt="Бабочка такая" class="portfolio-pic">
+              <p class="portfolio-pic-text ">Бабочка такая</p>
+            </div>
+          </div>
+          <div class="portfolio-pic-wrap" data-type="for-adults">
+            <div class="pic-wrap">
+              <img src="images/bow-tie-burgundy.jpg" alt="Бабочка растакая" class="portfolio-pic">
+              <p class="portfolio-pic-text">Бабочка растакая</p>
+            </div>
+          </div>
+          <div class="portfolio-pic-wrap" data-type="baby">
+            <div class="pic-wrap">
+              <img src="images/bow-tie-baby.jpg" alt="Бабочка сякая" class="portfolio-pic">
+              <p class="portfolio-pic-text">Бабочка сякая</p>
+            </div>
+          </div>
+          <div class="portfolio-pic-wrap" data-type="strict">
+            <div class="pic-wrap">
+              <img src="images/bow-tie-black.jpg" alt="Кривая" class="portfolio-pic">
+              <p class="portfolio-pic-text">Кривая</p>
+            </div>
+          </div>
+          <div class="portfolio-pic-wrap" data-type="for-adults">
+            <div class="pic-wrap">
+              <img src="images/bow-tie-pink.jpg" alt="Бабочка такая" class="portfolio-pic">
+              <p class="portfolio-pic-text ">Бабочка такая</p>
+            </div>
+          </div>
+          <div class="portfolio-pic-wrap" data-type="for-animals">
+            <div class="pic-wrap">
+              <img src="images/bow-tie-for-dog.jpg" alt="Бабочка растакая" class="portfolio-pic">
+              <p class="portfolio-pic-text">Бабочка растакая</p>
+            </div>
+          </div>
+          <div class="portfolio-pic-wrap" data-type="for-adults">
+            <div class="pic-wrap">
+              <img src="images/bow-tie-pattern.jpg" alt="Бабочка сякая" class="portfolio-pic">
+              <p class="portfolio-pic-text">Бабочка сякая</p>
+            </div>
+          </div>
+          <div class="portfolio-pic-wrap" data-type="funny">
+            <div class="pic-wrap">
+              <img src="images/bow-tie-bright.jpg" alt="Кривая" class="portfolio-pic">
+              <p class="portfolio-pic-text">Кривая</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
 
     <div class="order">
       <div class="order-inner">
         <h2 class="order-title">Закажи пошив</h2>
         <p class="order-text">Заполните форму - наш мастер свяжется с вами,
           согласует удобное время для встречи.
-          На встрече он снимет мерки и поможет обределиться с тканью.</p>
+          На встрече он снимет мерки и поможет определиться с тканью.</p>
         <form action="#" method="POST" class="form-order">
           <div class="form-order-field ">
             <label for="name" class="form-order-label">Ваше имя</label>
@@ -139,6 +157,7 @@
       </div>
     </div>
   </main>
+
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-wrap">
@@ -146,13 +165,16 @@
         <a href="tel:+78128008080" class="phone">+7-812-800-80-80</a>
         <ul class="social-icons">
           <li class="social-items">
-            <a href="#" class="social-link" style="background-image: url(images/Instagram.svg)"></a>
+            <a href="#" class="social-link" alt="Ссылка на социальную сеть Instagram"
+              style="background-image: url(images/Instagram.svg)"></a>
           </li>
           <li class="social-items">
-            <a href="#" class="social-link" style="background-image: url(images/facebook.svg)"></a>
+            <a href="#" class="social-link" alt="Ссылка на социальную сеть facebook"
+              style="background-image: url(images/facebook.svg)"></a>
           </li>
           <li class="social-items">
-            <a href="#" class="social-link" style="background-image: url(images/telegram.svg)"></a>
+            <a href="#" class="social-link" alt="Ссылка на мессенджер telegram"
+              style="background-image: url(images/telegram.svg)"></a>
           </li>
         </ul>
       </div>
@@ -161,6 +183,7 @@
 
   <script src="scripts/jquery-3.6.0.min.js"></script>
   <script src="scripts/script.js"></script>
+
 </body>
 
 </html>

@@ -44,7 +44,7 @@
   padding: 0;
 
    @media (max-width: $df-mobile) {
-    display: none;
+    display: block;
   }
 }
 
@@ -68,55 +68,40 @@
     font-size: 18px;
     line-height: 22px;
   }
-
-  // @media (max-width: $df-mobile) {
-  //   padding: 0 10px;
-  //   font-size: 14px;
-  //   line-height: 18px;
-  // }
 }
 
 .portfolio-wrap {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
   margin: -($indent-gap / 2);
 
   @media (max-width: $df-tablet) {
     flex-wrap: wrap;
     flex-basis: 50%;
     justify-content: center;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
   }
 
   @media (max-width: $df-mobile) {
     display: block;
     flex-basis: 100%;
-    margin-bottom: 60px;
-
+    padding-bottom: 60px;
   }
-
-
-
 }
 
 
 .portfolio-pic-wrap {
-
   padding: ($indent-gap / 2);
   flex-basis: 25%;
 
   @media (max-width: $df-tablet) {
     flex-basis: 50%;
-    // margin-top:  ($indent-gap / 2);
-    // margin-bottom:  ($indent-gap / 2);
-
   }
 }
 
 .pic-wrap {
   position: relative;
-
 }
 
 
@@ -133,8 +118,10 @@
   line-height: 33px;
   background-color: rgba(0, 0, 0, 0.4);
   color: $color-ligth;
-
 }
+
+
+
 
 
 
