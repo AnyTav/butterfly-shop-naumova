@@ -6,10 +6,16 @@ $(document).ready(function(){
 
   });
 
+  // Аккордион
+
+
+
   let prevBtn;
 
   $('.js-accordion-btn').on('click', function() {
-    console.log($(this));
+    $(this).toggleClass('active');
+    // console.log($(this));
+
 
 
     if (prevBtn === $(this)[0]) {
@@ -20,7 +26,10 @@ $(document).ready(function(){
     $('.js-accordion-btn').next().slideUp();
     $(this).next().slideDown();
     prevBtn = $(this)[0];
+
   });
+
+
 
 
   // Табы
@@ -70,9 +79,9 @@ $(document).ready(function(){
   });
 
   // Слайдер
-  // if ( $('.reviews-card-slider').length ) {
-  //   $('.reviews-card-slider').slick();
-  // }
+  if ( $('.reviews-card-slider').length ) {
+    $('.reviews-card-slider').slick();
+  }
 
 
 });
