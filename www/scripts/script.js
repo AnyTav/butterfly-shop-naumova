@@ -78,10 +78,34 @@ $(document).ready(function(){
 
   });
 
-  // Слайдер
-  if ( $('.reviews-card-slider').length ) {
-    $('.reviews-card-slider').slick();
-  }
+  // // Слайдер
+  // if ( $('.reviews-card-slider').length ) {
+  //   $('.reviews-card-slider').slick();
+  // }
+
+
+  // if ( $('.js-slider-wrap').length ) {
+  //   $('.js-slider-wrap').each(function() {
+  //     $(this).find('.js-slider').slick({
+  //       prevArrow: $(this).find('.js-btn-prev'),
+  //       nextArrow: $(this).find('.js-btn-next'),
+  //     });
+  //   });
+  // }
+
+
+
+    // Слайдер
+  // Проверяем есть ли разметка для слайдера на странице
+
+  // if ( $('.reviews-card-slider').length ) {
+  //   $('.reviews-card-slider').each(function() {
+  //     $(this).find('.js-slider').slick({
+  //       prevArrow: $(this).find('.js-btn-prev'),
+  //       nextArrow: $(this).find('.js-btn-next'),
+  //     });
+  //   });
+  // }
 
 
 });

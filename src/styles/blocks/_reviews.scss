@@ -9,6 +9,7 @@
     padding: 90px 0;
   }
 }
+
 .reviews-inner {
   @include container;
 }
@@ -18,25 +19,24 @@
 }
 
 
-.reviews-card {
+
+.reviews-slider {
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding-top: 80px;
-
-  @media (max-width: $df-tablet) {
-    padding-top: 70px;
-  }
-
-  @media (max-width: $df-mobile) {
-    display: block;
-    padding-top: 50px;
-    text-align: center;
-  }
-
 }
 
-.avatar {
+.slider-btn {
+  flex-grow: 1;
+}
+
+.reviews-card {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.reviews-card-avatar {
   flex-basis: 33.33%;
   padding-left: ($indent-gap / 2);
   padding-right: ($indent-gap / 2);

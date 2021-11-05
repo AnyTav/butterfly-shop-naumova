@@ -15,13 +15,15 @@
         <a href="index.html" class="header-logo">Butterfly</a>
         <nav class="main-nav reviews-nav js-main-nav">
           <ul>
-            <li><a href="catalog.html" >Каталог</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
             <li><a href="reviews.html" class="active">Отзывы</a></li>
             <li><a href="contacts.html">Контакты</a></li>
             <li><a href="faq.html">FAQ</a></li>
           </ul>
         </nav>
-        <button class="burger js-burger">Menu</button>
+        <div class="burger js-burger">
+          <span class="btn-burger"></span>
+        </div>
       </div>
     </div>
   </header>
@@ -29,48 +31,64 @@
     <section class="reviews">
       <div class="reviews-inner">
         <h1 class="reviews-title">Отзывы</h1>
-        <div class="reviews-card-slider">
-          <div class="reviews-card-wrap">
-            <div class="reviews-card">
-              <button class="slider-btn-prew">&#10229;</button>
-              <img src="images/avatar.jpg" alt="" class="avatar">
+
+        <div class="reviews-card-wrap">
+
+
+          <div class="reviews-slider">
+
+            <div class="slider-btn-wrap">
+              <button class="slider-btn js-btn-prev">&#10229;</button>
+            </div>
+
+            <div class="reviews-card js-slider">
+
+              <div class="reviews-card-avatar-wrap">
+                <img src="images/avatar.jpg" alt="" class="reviews-card-avatar">
+              </div>
+
               <div class="card-text-wrap">
                 <h2 class="card-title">Лидия Ивановна</h2>
                 <p class="card-text">Пацаны красавчики! Быстро и аккуратно починили мой лододос!
                   А так же вынесли за собой весь мусор! Еще и в шапке ходют - ван лав!</p>
               </div>
-              <button class="slider-btn-next">&#10230;</button>
             </div>
-        </div>
-        <div class="reviews-card-wrap">
-          <div class="reviews-card">
-            <button class="slider-btn-prew">&#10229;</button>
-            <img src="images/avatar.jpg" alt="" class="avatar">
-            <div class="card-text-wrap">
-              <h2 class="card-title">Лидия Ивановна</h2>
-              <p class="card-text">Пацаны красавчики! Быстро и аккуратно починили мой лододос!
-                А так же вынесли за собой весь мусор! Еще и в шапке ходют - ван лав!</p>
+
+            <div class="slider-btn-wrap">
+              <button class="slider-btn js-btn-next">&#10230;</button>
             </div>
-            <button class="slider-btn-next">&#10230;</button>
+
           </div>
-      </div>
-      <div class="reviews-card-wrap">
-        <div class="reviews-card">
-          <button class="slider-btn-prew">&#10229;</button>
-          <img src="images/avatar.jpg" alt="" class="avatar">
-          <div class="card-text-wrap">
-            <h2 class="card-title">Лидия Ивановна</h2>
-            <p class="card-text">Пацаны красавчики! Быстро и аккуратно починили мой лододос!
-              А так же вынесли за собой весь мусор! Еще и в шапке ходют - ван лав!</p>
+
+
+
+          <div class="reviews-slider">
+
+            <div class="slider-btn-wrap">
+              <button class="slider-btn js-btn-prev">&#10229;</button>
+            </div>
+
+            <div class="reviews-card js-slider">
+
+              <div class="reviews-card-avatar-wrap">
+                <img src="images/avatar.jpg" alt="" class="reviews-card-avatar">
+              </div>
+
+              <div class="card-text-wrap">
+                <h2 class="card-title">Лидия Ивановна</h2>
+                <p class="card-text">Пацаны красавчики! Быстро и аккуратно починили мой лододос!
+                  А так же вынесли за собой весь мусор! Еще и в шапке ходют - ван лав!</p>
+              </div>
+            </div>
+
+            <div class="slider-btn-wrap">
+              <button class="slider-btn js-btn-next">&#10230;</button>
+            </div>
+
           </div>
-          <button class="slider-btn-next">&#10230;</button>
-        </div>
-    </div>
 
 
-
-
-        </div><!-- reviews-card-slider -->
+        </div><!-- reviews-card-wrap -->
 
       </div><!-- reviews-inner -->
     </section>
@@ -105,13 +123,16 @@
         <a href="tel:+78128008080" class="phone">+7-812-800-80-80</a>
         <ul class="social-icons">
           <li class="social-items">
-            <a href="#" class="social-link" alt="Ссылка на социальную сеть Instagram" style="background-image: url(images/Instagram.svg)"></a>
+            <a href="#" class="social-link" alt="Ссылка на социальную сеть Instagram"
+              style="background-image: url(images/Instagram.svg)"></a>
           </li>
           <li class="social-items">
-            <a href="#" class="social-link" alt="Ссылка на социальную сеть facebook" style="background-image: url(images/facebook.svg)"></a>
+            <a href="#" class="social-link" alt="Ссылка на социальную сеть facebook"
+              style="background-image: url(images/facebook.svg)"></a>
           </li>
           <li class="social-items">
-            <a href="#" class="social-link" alt="Ссылка на мессенджер telegram" style="background-image: url(images/telegram.svg)"></a>
+            <a href="#" class="social-link" alt="Ссылка на мессенджер telegram"
+              style="background-image: url(images/telegram.svg)"></a>
           </li>
         </ul>
       </div>
