@@ -1,0 +1,58 @@
+
+.slick-list {
+  overflow: hidden;
+
+}
+
+.slick-track {
+  display: flex;
+
+}
+
+
+
+
+.slick-arrow{
+  display: block;
+  margin: 0;
+  padding: 0 30px;
+  font-size: 0;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+  @media (max-width: $df-tablet) {
+    padding: 0 20px;
+    width: 40px;
+    height: 40px;
+  }
+
+
+}
+
+.slick-prev {
+  left: 0;
+  margin-left: 28px;
+  background-image: url(../images/left.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (max-width: $df-tablet) {
+    margin: 0;
+  }
+
+}
+
+.slick-next {
+  right: 0;
+  margin-right: 28px;
+  background-image: url(../images/right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (max-width: $df-tablet) {
+    margin: 0;
+  }
+
+}

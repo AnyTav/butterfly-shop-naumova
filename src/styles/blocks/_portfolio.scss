@@ -1,14 +1,16 @@
 .portfolio {
   text-align: center;
-  padding: 130px 0;
-
+  padding-top: 220px;
+  padding-bottom: 130px;
 
   @media (max-width: $df-tablet) {
-    padding: 120px 0;
+    padding-top: 210px;
+    padding-bottom: 120px;
   }
 
   @media (max-width: $df-mobile) {
-    padding: 90px 0;
+    padding-top: 180px;
+    padding-bottom: 90px;
   }
 }
 
