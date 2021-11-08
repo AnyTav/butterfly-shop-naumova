@@ -16,9 +16,9 @@
 .contacts-inner {
   @include container;
 }
+
 .contacts-title {
   @include h2;
-
 }
 
 .tabs {
@@ -38,8 +38,6 @@
   @media (max-width: $df-mobile) {
     padding: 0 10px;
   }
-
-
 }
 
 .tabs-link {
@@ -64,13 +62,11 @@
   }
 }
 
-
 .contacts-content {
   display: none;
   justify-content: space-between;
   margin-top: 40px;
 }
-
 
 .contacts-content.active {
   display: flex;
@@ -101,12 +97,4 @@
 
 .contacts-maps {
   flex-basis: 58.33%;
-  @media (max-width: $df-tablet) {
-
-  }
-
-
-  @media (max-width: $df-mobile) {
-
-  }
 }

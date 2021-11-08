@@ -21,19 +21,15 @@
   @include h2;
 }
 
-
 .reviews-slider-wrap {
   display: flex;
   align-items: center;
-
 }
-
-
 
 .reviews-slider-item {
   display: flex;
   align-items: center;
-  padding: 0 216px;
+  padding: 0 128px;
   padding-top: 80px;
 
   @media (max-width: $df-tablet) {
@@ -46,16 +42,13 @@
     padding: 0;
     padding-top: 50px;
   }
-
 }
-
 
 .reviews-card-avatar {
   flex-basis: 33.33%;
   padding-left: ($indent-gap / 2);
   padding-right: ($indent-gap / 2);
   border-radius: 50%;
-
 }
 
 .card-text-wrap {
@@ -89,7 +82,6 @@
   font-size: 24px;
   line-height: 33px;
 
-
   @media (max-width: $df-tablet) {
     padding-top: 20px;
     font-size: 18px;
@@ -101,7 +93,6 @@
     font-size: 16px;
     line-height: 22px;
     text-align: center;
-
   }
 }
 

@@ -4,10 +4,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
-
-
 }
+
 .top-veil {
   padding-top: 290px;
   padding-bottom: 214px;
@@ -21,17 +19,12 @@
   @media (max-width: $df-mobile) {
     padding-top: 110px;
     padding-bottom: 100px;
-
-
   }
 }
-
-
 
 .top-inner {
   @include container;
 }
-
 
 .top-title {
   margin: 0;
@@ -44,17 +37,12 @@
   @media (max-width: $df-tablet) {
     font-size: 54px;
     line-height: 74px;
-
-
   }
 
   @media (max-width: $df-mobile) {
     font-size: 32px;
     line-height: 44px;
-
-
   }
-
 }
 
 

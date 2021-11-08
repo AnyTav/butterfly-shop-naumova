@@ -8,15 +8,10 @@ $(document).ready(function(){
 
   // Аккордион
 
-
-
   let prevBtn;
 
   $('.js-accordion-btn').on('click', function() {
     $(this).toggleClass('active');
-    // console.log($(this));
-
-
 
     if (prevBtn === $(this)[0]) {
       $(this).next().slideToggle();
@@ -29,9 +24,6 @@ $(document).ready(function(){
 
   });
 
-
-
-
   // Табы
   $('.tabs-link').on('click', function(e) {
     e.preventDefault();
@@ -43,12 +35,7 @@ $(document).ready(function(){
     $('.contacts-content').removeClass('active');
     $('.contacts-content').eq(index).addClass('active');
 
-
   });
-
-
-
-
 
   // Фильтр
   $('.filter-link').on('click', function(event) {
@@ -78,27 +65,7 @@ $(document).ready(function(){
 
   });
 
-
-  $('.js-slider-wrap').slick();
-
-  // if ( $('.js-slider-wrap').length ) {
-  //   $('.js-slider-wrap').slick();
-
-  // }
-
   // Слайдер
-  // Проверяем есть ли разметка для слайдера на странице
-  // if ( $('.js-slider-wrap').length ) {
-  //     $('.js-slider-wrap').each(function() {
-  //     $(this).find('.js-slider-wrap').slick({
-  //       prevArrow: $('.js-btn-prev'),
-  //       nextArrow: $('.js-btn-next'),
-  //     });
-  //   });
-  // }
-
-
-
-
+  $('.js-slider-wrap').slick();
 
 });
