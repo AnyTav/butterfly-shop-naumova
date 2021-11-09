@@ -1,0 +1,24 @@
+{
+  "portfolio": [
+    {
+      "imageUrl": "../images/big-butterfly.jpg",
+      "imageAlt": "Бабочка такая",
+      "text": "Бабочка такая"
+    },
+    {
+      "imageUrl": "../images/two-butterflies.jpg",
+      "imageAlt": "Бабочка растакая",
+      "text": "Бабочка растакая"
+    },
+    {
+      "imageUrl": "../images/bow-tie.jpg",
+      "imageAlt": "Бабочка сякая",
+      "text": "Бабочка сякая"
+    },
+    {
+      "imageUrl": "../images/bow-tie-for-cat.jpg",
+      "imageAlt": "Кривая",
+      "text": "Кривая"
+    }
+  ]
+}

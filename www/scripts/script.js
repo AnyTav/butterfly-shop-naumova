@@ -68,4 +68,48 @@ $(document).ready(function(){
   // Слайдер
   $('.js-slider-wrap').slick();
 
+
+
+
+
+
+  $('.js-btn-catalog').on('click', function() {
+
+    let button = $(this);
+    button.text('...');
+
+    $.ajax({
+      type: 'POST',
+      url: '../json/catalog.json',
+      data: 'count=4',
+      success: function(response){
+        let html = createHtml(response);
+        addToHtml(html);
+        button.text('Больше бабочек');
+      },
+      error: function(){}
+    });
+
+    function addToHtml(string) {
+      $('.js-portfolio-wrap').append(string);
+    }
+
+    function createHtml(data) {
+      let dataArray = data.portfolio;
+      let htmlString = '';
+
+      dataArray.forEach(function(item){
+        htmlString = htmlString + `<div class="portfolio-pic-wrap" data-type="strict">
+        <div class="pic-wrap">
+          <img src="${item.imageUrl}" alt="${item.imageAlt}" class="portfolio-pic">
+          <p class="portfolio-pic-text ">${item.text}</p>
+        </div>
+      </div>`;
+      });
+
+      return htmlString;
+    }
+
+  });
+
 });
